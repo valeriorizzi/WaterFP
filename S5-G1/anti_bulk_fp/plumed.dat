@@ -2,7 +2,7 @@
 
 HOST: GROUP ATOMS=16-211      #host atoms
 LIGC: GROUP ATOMS=1-8  #carbon atoms in the ligand
-l1: GROUP ATOMS=6 #C6 in pdb, C1 in overleaf             #ligand selected atoms
+l1: GROUP ATOMS=1 #C6 in pdb, C1 in overleaf             #ligand selected atoms
 l2: GROUP ATOMS=3 #C3 in pdb, C4 in overleaf 
 l3: GROUP ATOMS=5
 l4: GROUP ATOMS=8
