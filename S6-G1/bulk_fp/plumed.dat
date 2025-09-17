@@ -1,12 +1,12 @@
 # --- (1) ATOMS DEFINITIONS and ALIGNMENT ---
 
-HOST: GROUP ATOMS=16-211      #host atoms
+HOST: GROUP ATOMS=18-213      #host atoms
 LIGC: GROUP ATOMS=1-8  #carbon atoms in the ligand
-l1: GROUP ATOMS=6 #C6 in pdb, C1 in overleaf             #ligand selected atoms
-l2: GROUP ATOMS=3 #C3 in pdb, C4 in overleaf 
+l1: GROUP ATOMS=2             #ligand selected atoms
+l2: GROUP ATOMS=7
 l3: GROUP ATOMS=5
 l4: GROUP ATOMS=8
-WO: GROUP ATOMS=212-6829:3    #water oxygen atoms
+WO: GROUP ATOMS=214-6831:3    #water oxygen atoms
 
 WHOLEMOLECULES ENTITY0=HOST
 FIT_TO_TEMPLATE STRIDE=1 REFERENCE=conf_template.pdb TYPE=OPTIMAL #coordinates alignment
