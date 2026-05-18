@@ -8,7 +8,7 @@ l3: GROUP ATOMS=5
 l4: GROUP ATOMS=8
 WO: GROUP ATOMS=214-6831:3    #water oxygen atoms
 WHOLEMOLECULES ENTITY0=HOST
-FIT_TO_TEMPLATE STRIDE=1 REFERENCE=conf_template.pdb TYPE=OPTIMAL #coordinates alignment
+FIT_TO_TEMPLATE STRIDE=1 REFERENCE=../conf_template.pdb TYPE=OPTIMAL #coordinates alignment
 lig: CENTER ATOMS=LIGC
 
 v1: FIXEDATOM AT=2.0136,2.0136,2.0   #virtual atoms
